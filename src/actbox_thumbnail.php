@@ -123,5 +123,3 @@ class actionbox_thumbnail extends base_actionbox {
   }
 
 }
-
-

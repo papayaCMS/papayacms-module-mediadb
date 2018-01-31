@@ -8,6 +8,7 @@
     <module type="page" guid="61a6d514dc0e8edb79a370d22d5a6449" name="Uploads" class="content_upload" file="content_upload.php">Upload form that stores any image in a given MediaDB folder.</module>
     <module type="page" guid="c6d7a3e53376ec764ae9450019c28270" name="Thumbnails" class="content_thumbs" file="content_thumbs.php">Page module that creates an image gallery using the images of a MediaDB folder.</module>
     <module type="box" guid="cfc171342d0c34c412127b11f5baa008" name="Random Image" class="actionbox_thumbnail" file="actbox_thumbnail.php" outputfilter="no">A box module that displays a random image from the MediaDB.</module>
+    <module type="box" guid="1c66d5d01a93b1ffef7709692ca56807" name="Slideshow Box" class="actionbox_slideshow" file="actbox_slideshow.php">A box module that displays images from a MediaDB folder, e.g. as a slideshow</module>
   </modules>
   <tables>
   </tables>
