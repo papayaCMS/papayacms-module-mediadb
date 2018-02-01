@@ -112,8 +112,9 @@ class actionbox_slideshow extends base_actionbox {
     if (count($outputFiles) > 0) {
       $result = '<slideshow-box>'.LF;
       $result .= sprintf(
-        '<settings total="%d" autoplay="%d" />'.LF,
+        '<settings total="%d" speed="%d" autoplay="%d" />'.LF,
         count($outputFiles),
+        $this->data['animation_speed'],
         $this->data['autoplay']
       );
       foreach ($outputFiles as $file) {
